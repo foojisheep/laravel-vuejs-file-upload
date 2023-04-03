@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('type')->default('Smartphone');
             $table->string('brand');
             $table->string('processor')->nullable()->change();
-            $table->string('product_operating_system')->nullable()->change();
             $table->string('screen_size')->nullable()->change();
             $table->string('capacity');
             $table->string('operating_system')->nullable()->change();
